@@ -1,0 +1,51 @@
+p {
+    font-family: Arial;
+}
+.vedio-title {
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.vedio-stats {
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.vedio-author {
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.vedio-description {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+    margin-top: 0;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+
+.apple-text {
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.shop-link {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.shop-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,92 @@
+.vedio-title {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.vedio-author,
+.vedio-stats {
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+}
+
+.vedio-author {
+    margin-bottom: 4px;
+}
+
+.thumbnail {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.vedio-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.channel-picture {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.profile-picture {
+    width: 36px;
+    border-radius: 50px;
+}
+
+.vedio-info {
+    display: inline-block;
+    width: 215px;
+}
+
+.thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.vedio-author {
+    margin-bottom: 4px;
+}
+
+.vedio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+    .vedio-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+} 
+
+@media (min-width: 751) and (max-width: 99px) {
+    .vedio-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .vedio-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.vedio-time {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+}
+
